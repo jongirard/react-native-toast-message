@@ -42,8 +42,7 @@ export default StyleSheet.create({
     height: 9
   },
   text1: {
-    fontSize: 12,
-    fontWeight: 'bold',
+    fontSize: 14,
     marginBottom: 3
   },
   text2: {
