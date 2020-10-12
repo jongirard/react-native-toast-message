@@ -36,7 +36,7 @@ const getInitialState = (props) => {
     topOffset,
     bottomOffset,
     height: 60,
-    position: 'top',
+    position: 'bottom',
     type: 'success',
 
     // timing (in ms)

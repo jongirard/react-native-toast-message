@@ -6,14 +6,14 @@ export const HEIGHT = 60;
 export default StyleSheet.create({
   base: {
     flexDirection: 'row',
-    height: HEIGHT,
     width: '90%',
     borderRadius: 6,
     backgroundColor: colors.white,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.1,
     shadowRadius: 6,
-    elevation: 2
+    elevation: 2,
+    minHeight: HEIGHT,
   },
   borderLeft: {
     borderLeftWidth: 5,
@@ -30,7 +30,9 @@ export default StyleSheet.create({
   },
   contentContainer: {
     flex: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    paddingTop: 15,
+    paddingBottom: 15,
   },
   closeButtonContainer: {
     paddingHorizontal: 14,
@@ -42,11 +44,13 @@ export default StyleSheet.create({
     height: 9
   },
   text1: {
-    fontSize: 14,
-    marginBottom: 3
+    fontSize: 16,
+    fontFamily: "Rubik-Regular",
+    lineHeight: 25,
   },
   text2: {
-    fontSize: 10,
+    marginTop: 5,
+    fontSize: 13,
     color: colors.dustyGray
   }
 });

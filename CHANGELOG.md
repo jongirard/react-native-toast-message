@@ -9,6 +9,14 @@ Headers are one of:
 
 - `Added`, `Changed`, `Removed` or `Fixed`.
 
+## [1.3.4.1]
+
+### Changed
+
+- Changed base styles (font weight and font family)
+- Removed auto truncation max lines from text1
+- Made bottom position default
+
 ## [1.3.4]
 
 ### Fixed
